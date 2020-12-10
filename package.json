@@ -1,0 +1,32 @@
+{
+  "name": "bulma-npm-theme",
+  "version": "0.0.1",
+  "description": "Build a theme from Bulma with Sass",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --no-source-map sass/bulma-theme.scss:css/bulma-theme.css",
+    "watch": "sass --watch --no-source-map sass/bulma-theme.scss:css/bulma-theme.css",
+    "start": "concurrently \"npm run build\" \"npm run watch\" \"http-server -o\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techws-dev/bulma-npm-theme.git"
+  },
+  "keywords": [
+    "Bulma"
+  ],
+  "author": "Tanguy Dechiron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techws-dev/bulma-npm-theme/issues"
+  },
+  "homepage": "https://github.com/techws-dev/bulma-npm-theme#readme",
+  "dependencies": {
+    "bulma": "^0.9.1",
+    "sass": "^1.30.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "http-server": "^0.12.3"
+  }
+}
