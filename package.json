@@ -1,6 +1,6 @@
 {
   "name": "bulma-npm-theme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Build a theme from Bulma with Sass",
   "main": "index.js",
   "scripts": {
