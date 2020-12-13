@@ -5,7 +5,7 @@ Build a theme from Bulma with npm and Sass
 
 ## Intro
 
-The goal is to generate a **custom Bulma CSS file** the fits your needs, and you can use for any website.
+The goal is to generate a **custom Bulma CSS file** that fits your needs, and you can use for any website.
 
 To achieve that, you will need **Node.js and npm** (if you have not them please check how to install them ![here](https://nodejs.org/en/download/)).
 
